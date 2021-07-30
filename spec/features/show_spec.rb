@@ -1,7 +1,7 @@
 require 'rails_helper.rb'
 
-feature 'Editing Posts' do
-    scenario 'can edit new posts' do
+feature 'Show Posts' do
+    scenario 'can show posts' do
         # visit root route
         visit '/posts'
 
@@ -44,4 +44,4 @@ feature 'Editing Posts' do
         expect(page).to have_content('category2')
         expect(page).to have_content('body2')
     end
-end
+end 
