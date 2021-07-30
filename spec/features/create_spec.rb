@@ -14,7 +14,8 @@ feature 'Creating Posts' do
         fill_in 'Body', with: 'body'
 
         # click submit button
-        click_link 'Add Post'
+        # form submit is automatically a button
+        click_on 'Add Post'
 
         # expect page to have the content we submitted
         expect(page).to have_content('title')
