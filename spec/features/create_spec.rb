@@ -15,7 +15,7 @@ feature 'Creating Posts' do
 
         # click submit button
         # form submit is automatically a button
-        click_on 'Add Post'
+        click_on 'Submit'
 
         # expect page to have the content we submitted
         expect(page).to have_content('title')
