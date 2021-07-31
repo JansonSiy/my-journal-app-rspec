@@ -1,7 +1,7 @@
 require 'rails_helper.rb'
 
-feature 'Editing Posts' do
-    scenario 'can edit new posts' do
+describe 'Editing Posts' do
+    it 'can edit new posts' do
         # visit root route
         visit '/posts'
 

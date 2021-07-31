@@ -1,7 +1,7 @@
 require 'rails_helper.rb'
 
-feature 'Show Posts' do
-    scenario 'can show posts' do
+describe 'Show Posts' do
+    it 'can show posts' do
         # visit root route
         visit '/posts'
 

@@ -1,7 +1,7 @@
 require 'rails_helper.rb'
 
-feature 'Creating Posts' do
-    scenario 'can create new posts' do
+describe 'Creating Posts' do
+    it 'can create new posts' do
         # visit root route
         visit '/posts'
 
